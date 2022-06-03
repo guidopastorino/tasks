@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.content{
+    overflow-x: auto;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead,
+tbody,
+tfoot{
+    border: 1px solid black;
+}
+
+th,
+td{
+    border: 1px solid black;
+    padding: 7px 3px;
+}
+
+.bg-green{
+    background: #08e308;
+    font-weight: bold;
+}
